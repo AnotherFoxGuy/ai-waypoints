@@ -6,7 +6,7 @@ readmefile = open("README.md", "r")
 readme = readmefile.read()
 readmefile.close()
 
-readme.replace("publish/map_preview.png?raw=true", "map_preview.png")
+readme = readme.replace("publish/map_preview.png?raw=true", "map_preview.png")
 
 readme += """
 # Terrains with waypoint presets
